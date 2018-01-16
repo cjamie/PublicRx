@@ -41,8 +41,8 @@ class ViewController: UIViewController {
         let dataSource = self.dataSource
         
         let items = Observable.just([
-            SectionModel(model: CreditDescriptionTitle[0], items: [ //model firstSection is my section title
-                "Capital One QUicksilver Cash", //data to display which is a double
+            SectionModel(model: CreditDescriptionTitle[0], items: [
+                "Capital One QUicksilver Cash",
                 "nothing",
                 "You qualify"
                 ]),
